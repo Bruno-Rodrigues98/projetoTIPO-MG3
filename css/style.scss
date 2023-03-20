@@ -1,0 +1,173 @@
+.mainBackground{
+    background: linear-gradient(#F8F9FA,#e7e6ec,#bcbfc5);
+    padding: 5%;
+}
+
+.mainBackground p{
+  color:#000000
+}
+
+.mainParagraph{
+    color: #F80054;
+    transition: color 0.5s;
+}
+
+.mainParagraph:hover{
+    color: #163C93;
+}
+
+  
+.navbar-nav .nav-link {
+    color: #163C93;
+    font-size: 25px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #F80054;
+  }
+
+  .active{
+    color: #F80054;
+  }
+  
+
+.mainImage{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    
+}
+.mainImage img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 40px 10px #414040;
+    transition: transform 0.5s ease-in-out;
+}
+
+.mainImage img:hover {
+  transform: scale(1.1);
+}
+
+.c-item{
+    height: 480px;
+}
+
+.c-item h1,p{
+    color: white
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6)
+}
+
+.header-image {
+    height: 50vh;
+    background-image: url('https://www.mg3comercial.com.br/img/produtos/aluminio/aluminio-00.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header-image h1 {
+    color: #fff;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .header-image p {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+
+  .about-sc {
+    text-align: center;
+    font-size: 20px;
+    background: white;
+    color: #000000;
+    padding: 50px 0;
+    margin-left: 4px;
+  }
+  
+  .about-sc p {
+    color: #163C93;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+    text-align: left;
+  }
+
+  .about-sc h1{
+    color: #F80054;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 5px;
+  }
+
+  .about-sc h1:hover{
+    color:#163C93
+  }
+
+
+  .video-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:rgb(0, 0, 0, 0.5);
+    color: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+    min-height: 50vh;
+  }
+
+  .video-bg{
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  
+.footer-color{
+    background: #163C93;
+}
+
+.footer-color{
+    background: #163C93;
+}
+
+.fab,.fas{
+  transition: 1s;
+}
+.fab:hover{
+  color: #F80054;
+  transform: scale(1.1)
+}
+.fas:hover{
+  color: #F80054;
+  transform: scale(1.1)
+}
+
+
+  
+
+
+  
+  
+  
+
